@@ -4,7 +4,7 @@ import subprocess
 import json
 
 # SET THIS TO YOUR RENDER WEB APP URL, e.g. https://your-app.onrender.com/data
-API_URL = "https://YOUR_RENDER_APP_URL/data"
+API_URL = "https://l4-dstat.onrender.com/data"
 
 def get_bytes_in():
     # dstat: get incoming bytes/sec (replace eth0 with your interface if needed)
